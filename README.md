@@ -1,2 +1,2 @@
-# Paw_Life_Matters
- A Dog Welfare Website
+# Paw_Life_Matter
+ Dog Welfare Website

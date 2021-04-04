@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Dog</title>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Adopt.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title"> <a href="./index.html"><img src="./Images/logo.png" alt=""></a> PAW LIFE MATTTERS</h1>
+        <h4 class="subtitle">DOG WELFARE WEBSITE</h4>
+        <br />
+        <hr />
+        <br />
+        <nav>
+            <a class="link" href="./index.html"> HOME </a>
+            <a class="link" href="./About.html"> ABOUT </a>
+            <div class="service">
+                <a href="#">
+                    SERVICES
+                </a>
+                <div class="dropdown-content">
+                    <a href="./Doctor.html"> Veteran Doctor on call </a>
+                    <a href="./Holiday.html"> Rent a Dog </a>
+                    <a href="./Donate.html"> Donation </a>
+                </div>
+            </div>
+            <a class="link" href="./Adopt.html"> ADOPT A DOG </a>
+        </nav>
+        <br>
+    </header>
+
+    <div class="cover">
+        <img src="./Images/adopt-cover.jpg" alt="">
+        <div class="inner">
+            <p class="info">
+                There are many health benefits of owning a pet. They can increase opportunities to exercise, get outside, and socialize.
+                Regular walking or playing with pets can decrease blood pressure, cholesterol levels, and triglyceride levels. Pets can
+                help manage loneliness and depression by giving us companionship.
+                <br>
+                You will save a life.
+                Apart from preventing cruelty to animals, you are giving shelter and warmth to a homeless canine. <br>
+                Do not worry about health of dogs in our Organisation, all dogs in our Organisation are well-vaccinated and maintained. 
+                <br>
+                <span style="font-size:29px; font-weight: 800">Here are some Dogs which are Available at our Organisation and are ready to get Adoped.</span>
+            </p>
+        </div>
+    </div>
+
+
+
+    <br><br><br>
+
+    <div class="mainContainer">
+        <div class="one">
+            <img id="1" onclick="imageOpener(this)" class="image" src="./Images/adopt/1.jpg" alt="MAX">
+
+            <h4>Dog - ID : 1   <a href="./AdoptForm.html">ADOPT</a></h4>
+        
+            <br> 
+            <br> <br><br>
+
+            <img id="2" onclick="imageOpener(this)"  class="image" src="./Images/adopt/2.jpg" alt="SUNNY">
+
+            <h4>Dog - ID : 2 <a href="./AdoptForm.html">ADOPT</a></h4>
+
+            <br>
+            <br> <br><br>
+
+            <img onclick="imageOpener(this)"  id="3" class="image" src="./Images/adopt/3.jpg" alt="GABBAR">
+
+            <h4>Dog - ID : 3 <a href="./AdoptForm.html">ADOPT</a></h4>
+        </div>
+
+        <div class="two">
+
+            <img id="4" onclick="imageOpener(this)"  class="image" src="./Images/adopt/4.jpg" alt="SHERU">
+
+            <h4>Dog - ID :4 <a href="./AdoptForm.html">ADOPT</a></h4>
+
+            <br>
+            <br> <br><br>
+            <img id="5" onclick="imageOpener(this)" class="image" src="./Images/adopt/5.jpg" alt="ACE">
+
+            <h4>Dog - ID : 5 <a href="./AdoptForm.html">ADOPT</a></h4>
+
+            <br>
+            <br> <br><br>
+            <img id="6" onclick="imageOpener(this)" class="image" src="./Images/adopt/6.jpg" alt="ZIGG">
+
+            <h4>Dog - ID : 6 <a href="./AdoptForm.html">ADOPT</a></h4>
+
+        </div>
+
+        <div class="three">
+            <img class="image" onclick="imageOpener(this)"  src="./Images/adopt/7.jpg" alt="FLORA">
+
+            <h4>Dog - ID : 1 <a href="./AdoptForm.html">ADOPT</a></h4>
+
+            <br>
+            <br> <br><br>
+            <img class="image" onclick="imageOpener(this)"  src="./Images/adopt/8.jpg" alt="TOM">
+
+            <h4>Dog - ID : 1 <a href="./AdoptForm.html">ADOPT</a></h4>
+
+            <br>
+            <br> <br><br>
+            <img class="image" onclick="imageOpener(this)"  src="./Images/adopt/9.jpg" alt="JENNY">
+
+            <h4>Dog - ID : 1 <a href="./AdoptForm.html">ADOPT</a></h4>
+            
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+
+    
+    <footer class="contact">
+    
+        <div class="connect">
+            <h2 class="headings">Connect with Us</h2> <br>
+    
+            <div class="middle">
+                <a class="btn" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn" href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <br>
+                <a class="btn" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+    
+                <a class="btn" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+    
+            </div>
+    
+        </div>
+    
+        <div class="links">
+            <h2 class="headings">Links</h2>
+            <br><br>
+    
+            <i class="fas fa-home"></i> &ensp; <a class="foot" href="./index.html"> index.html </a> <br>
+            <br>
+            <i class="far fa-address-card"></i> &ensp; <a class="foot" href="./About.html"> ABOUT</a> <br>
+            <br>
+            <i class="fas fa-arrow-circle-right"></i> &nbsp;
+            <a class="foot" href="./Donate.html"> DONATE US </a>
+    
+        </div>
+        <div class="services">
+    
+            <h2 class="headings">Services</h2>
+            <br> <br>
+            <i class="fas fa-arrow-circle-right"></i> &nbsp;
+            <a class="foot" href="./Doctor.html"> VETERAN DOCTOR ON CALL</a> <br> <br>
+            <i class="fas fa-arrow-circle-right"></i> &nbsp;
+            <a class="foot" href="./Holiday.html"> RENT US Your DOG</a> <br> <br>
+            <i class="fas fa-dog"></i> &ensp;<a class="foot" href="./Adopt.html"> ADOPT A DOG</a>
+            <br><br>
+    
+        </div>
+        <div class="query">
+            <h2 class="headings">Have a Query ? </h2> <br> <br>
+            <i class="fas fa-reply"></i> &nbsp; <a target="blank" class="foot" href="mailto:vaibhav6644@gmail.com"> :
+                vaibhav6644@gmail.com</a>
+        </div>
+    </footer>
+    
+    <p class="copy">
+        Copyright ©2020 All rights reserved | This template is made with
+        <i class="fas fa-heart" aria-hidden="true"></i> by <a target="blank"
+            href="https://www.linkedin.com/in/vaibhav-patel-05889b1a3/">Vaibhav Patel</a>
+    </p>
+    <script>
+        function imageOpener(img){
+
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            captionText.innerHTML = img.alt;
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+        }
+    </script>
+</body>
+
+</html>

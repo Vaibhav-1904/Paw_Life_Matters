@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./payment.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title"> <a href="./index.html"><img src="./Images/logo.png" alt=""></a> PAW LIFE MATTTERS</h1>
+        <h4 class="subtitle">DOG WELFARE WEBSITE</h4>
+        <br />
+        <hr />
+        <br />
+        <nav>
+            <a class="link" href="./index.html"> HOME</a>
+            <a class="link" href="./About.html"> ABOUT </a>
+            <div class="service">
+                <a href="#">
+                    SERVICES
+                </a>
+                <div class="dropdown-content">
+                    <a href="./Doctor.html"> Veteran Doctor on call </a>
+                    <a href="./Holiday.html"> Rent a Dog </a>
+                    <a href="./Donate.html"> Donation </a>
+                </div>
+            </div>
+            <a class="link" href="./Adopt.html"> ADOPT A DOG </a>
+        </nav>
+        <br>
+    </header>
+
+    <div class="cover">
+        <img src="./Images/payment-cover.jpg" alt="">
+        <div class="inner">
+            <p class="info">
+                This is the Official Payment page of "Paw Life Matters". <br>
+                Please help us to help as many Homeless Dogs possible. We are on a mission for Welfare of Stray Dogs in India.
+                
+                A small help from you might help us to feed more Stray dogs.
+                
+                You will get a Soft copy of invoice of your Donation on your registered Email-id. <br>
+                Please Donate as much as Possible. God Bless You.
+            </p>
+        </div>
+    </div>
+
+    <br><br><br>
+
+
+    <div class="container-1 ">
+        <form class="signup" action="http://localhost/online_pay.php" method="post">
+            <h1> DONATION FORM </h1>
+            <input class="field" type="text" name="name" id="name" placeholder="   Your Name" >
+            <br>
+            <input class="field" type="email" name="email" id="email" placeholder="  Your Email-Id" >
+            <br>
+
+            <input class="field" type="number" name="amount" id="amount" placeholder="  Amount">
+            <br>
+
+            <input type="radio" name="online" id="card" > <img src="./Images/card.png" alt="">
+
+            &emsp;&emsp;&emsp;&emsp;
+
+            <input type="radio" name="online" id="gpay"> 
+            <img src="./Images/gpay.png" alt="">
+            
+
+            <br> <br>
+
+            <input class="submit" type="submit" name="pay" value=" PAY">
+            <br> <br> <br> <br>
+
+        </form>
+    </div>
+    <footer class="contact">
+    
+        <div class="connect">
+            <h2 class="headings">Connect with Us</h2> <br>
+    
+            <div class="middle">
+                <a class="btn" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn" href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <br>
+                <a class="btn" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+    
+                <a class="btn" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+    
+            </div>
+    
+        </div>
+    
+        <div class="links">
+            <h2 class="headings">Links</h2>
+            <br><br>
+    
+            <i class="fas fa-home"></i> &ensp; <a class="foot" href="./index.html"> index.html </a> <br>
+            <br>
+            <i class="far fa-address-card"></i> &ensp; <a class="foot" href="./About.html"> ABOUT</a> <br>
+            <br>
+            <i class="fas fa-arrow-circle-right"></i> &nbsp;
+            <a class="foot" href="./Donate.html"> DONATE US </a>
+    
+        </div>
+        <div class="services">
+    
+            <h2 class="headings">Services</h2>
+            <br> <br>
+            <i class="fas fa-arrow-circle-right"></i> &nbsp;
+            <a class="foot" href="./Doctor.html"> VETERAN DOCTOR ON CALL</a> <br> <br>
+            <i class="fas fa-arrow-circle-right"></i> &nbsp;
+            <a class="foot" href="./Holiday.html"> RENT US Your DOG</a> <br> <br>
+            <i class="fas fa-dog"></i> &ensp;<a class="foot" href="./Adopt.html"> ADOPT A DOG</a>
+            <br><br>
+    
+        </div>
+        <div class="query">
+            <h2 class="headings">Have a Query ? </h2> <br> <br>
+            <i class="fas fa-reply"></i> &nbsp; <a target="blank" class="foot" href="mailto:vaibhav6644@gmail.com"> :
+                vaibhav6644@gmail.com</a>
+        </div>
+    </footer>
+    
+    <p class="copy">
+        Copyright ©2020 All rights reserved | This template is made with
+        <i class="fas fa-heart" aria-hidden="true"></i> by <a target="blank"
+            href="https://www.linkedin.com/in/vaibhav-patel-05889b1a3/">Vaibhav Patel</a>
+    </p>
+</body>
+
+</html>
